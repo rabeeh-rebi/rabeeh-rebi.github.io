@@ -12,6 +12,11 @@ a{
     display: inline-block !important;
     color: black;
 }
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-1 nav ul{
     display: flex;
     justify-content: center;
@@ -21,6 +26,7 @@ a{
     font-weight: 450;
     background-color: white;
     padding: 10px;
+    
 }
 #baner h1{
     font-size: 50px;
