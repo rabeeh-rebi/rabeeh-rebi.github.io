@@ -114,11 +114,15 @@ h1 span{
     border-radius: 30px;
 }
 .about-cnt h2{
-    text-align: center;
-    margin: top20x; 
+    text-align: center !important;
+    margin: top20x;
+    font-size: 40px;
+
 }
 .about-cnt p {
-    max-width: 600px;
+    max-width: 550px;
+    margin-top: 20px;
+    line-height: 2;
 }
 .about-cnt {
     max-width: 768px;
@@ -127,6 +131,10 @@ h1 span{
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    padding: 15px;
+    padding: 30px;
 }
-
+.skill-cnt{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
