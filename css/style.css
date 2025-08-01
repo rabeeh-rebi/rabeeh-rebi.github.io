@@ -57,13 +57,15 @@ a{
     padding: 10px;
     
 }
-#baner h1{
-    font-size: 50px;
-    font-weight: 200;
-    max-width: 700px;
-}
-section#hero {
+
+#hero {
     height: 100vh;
+    
+}
+.hero-cnt{
+    background:#F9F9F9;
+    height: 100%;
+    border-radius: 30px;
 }
 .hero-heading {
     display: flex;
@@ -104,13 +106,27 @@ h1 span{
 .img-cnt p{
     color: white;
 }
+#about{
+    margin-top: 30px;
+}
 .abut-me{
-    background: #F9F9F9;
+    background:  #F9F9F9;
     border-radius: 30px;
 }
-.abut-me h2{
+.about-cnt h2{
     text-align: center;
+    margin: top20x; 
 }
-.about-cnt{
+.about-cnt p {
+    max-width: 600px;
+}
+.about-cnt {
     max-width: 768px;
+    display: flex;
+    align-items: baseline;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
 }
+
