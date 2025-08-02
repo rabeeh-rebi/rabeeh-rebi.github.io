@@ -265,12 +265,14 @@ justify-content: center;
 gap: 20px;
 }
 .footer-cnt{
-    background: #F9F9F9;
-    border-radius: 20px;
      display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+}
+.footer-div{
+    background: #F9F9F9;
+      border-radius: 20px;
 }
 .footer-cta a{
     background-color: white;
@@ -278,5 +280,15 @@ gap: 20px;
     padding:10px;
     font-size: 20px;
 }
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media img{
+    width: 30px;
+}
+
 
 
